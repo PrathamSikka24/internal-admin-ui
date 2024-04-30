@@ -1,0 +1,104 @@
+/* Global styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Rest of your styles */
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0%;
+}
+
+.App-header {
+  background-color: #5e4b8b;
+  padding: 0px;
+}
+
+.App-logo {
+  height: 80px;
+  margin-bottom: 0px;
+}
+
+.User-list {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #6c63ff;
+  color: white;
+  padding: 15px 0;
+}
+
+td {
+  padding: 15px 0;
+}
+
+button {
+  background-color: #9b72aa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #815496;
+}
+
+.sidebar {
+  background-color: #6c63ff; /* Purple background */
+  color: white;
+  height: 100vh; /* Full height of the view */
+  width: 250px; /* Width of the sidebar */
+  position: fixed; /* Fixed position */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px 16px;
+  text-align: left;
+}
+
+.sidebar li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar li a:hover {
+  background-color: #815496; /* A darker purple on hover */
+}
